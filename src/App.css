@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+#root {
+  height: 100vh;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  height: 100px;
+  border: 1px solid tomato;
+  line-height: 100px;
+}
+
+.hero {
+  display: flex;
+  height: 80vh;
+  border: 1px solid tomato;
+}
+.hero-left {
+  width: 33%;
+  background-color: #ffffff;
+  border: 1px solid tomato;
+}
+
+.daily-dish {
+  border: 1px solid tomato;
+  height: 90vh;
+}
+
+.how {
+  height: 400px;
+  border: 1px solid tomato;
+}
+
+.experience {
+  height: 500px;
+  border: 1px solid tomato;
+}
+
+.coupon {
+  height: 600px;
+  border: 1px solid tomato;
+}
+
+footer {
+  height: 200px;
+  background-color: #ffffff;
+  border: 1px solid tomato;
+}
