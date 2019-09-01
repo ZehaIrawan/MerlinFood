@@ -4,8 +4,21 @@ import Card from './Card';
 const DailyDish = () => {
   return (
     <div className="daily-dish">
-      <h1>DailyDish</h1>
-      <Card></Card>
+      <h2>Dish of the day</h2>
+      <div className="card-container">
+        <Card></Card>
+        <Card></Card>
+        <Card></Card>
+        <Card></Card>
+        <Card></Card>
+        <Card></Card>
+        <Card></Card>
+        <Card></Card>
+        <Card></Card>
+        <Card></Card>
+        <Card></Card>
+        <Card></Card>
+      </div>
     </div>
   );
 };

@@ -13,7 +13,13 @@ const Hero = () => {
         </p>
         <button>Explore All</button>
       </div>
-      <dev className="hero-right">Hero right</dev>
+      <div className="hero-right">
+        <img
+          className="noodle"
+          src="https://images.unsplash.com/photo-1552611052-33e04de081de?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80"
+          alt=""
+        />
+      </div>
     </div>
   );
 };
